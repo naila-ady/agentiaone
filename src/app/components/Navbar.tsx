@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { Bot, Menu } from "lucide-react"
+
 import { Button } from "@/components/ui/button";
 
 import {
@@ -13,10 +14,11 @@ const Header = () => {
     return (
 
         //header
-        <header className='max-w-[1280px] flex justify-between items-center mx-auto fixed top-0 left-0 right-0 z-50
-     transition-all duration-300 bg-black/80 backdrop-blur-md shadow-lg shadow-purple-500/10'>
+        <div className='w-full h-full bg-red-200'>
+        <div className=' max-w-[1280px] flex justify-between items-center mx-auto fixed top-0 left-0 right-0 z-50
+        transition-all duration-300 bg-black/80 backdrop-blur-md shadow-lg shadow-purple-500/10'>
             {/* Agentia Ai heading */}
-            <div className='max-w-[175px] flex justify-center items-center px-2 py-4 gap-2 '>
+            <div className=' flex justify-center items-center px-2 py-4 gap-2 '>
                 <h1>
                     <Bot className='w-8 h-8 text-purple-500 text-xl' />
                 </h1>
@@ -86,7 +88,8 @@ const Header = () => {
             </Sheet>
             <div>
             </div>
-        </header >
+        </div>
+        </div >
     )
 
 }
