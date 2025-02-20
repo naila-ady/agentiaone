@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-black px-4 py-5 sm:px-8 md:px-12 lg:px-16 border-t mt-8 border-gray-200">
+    <footer className="bg-black px-4 py-5 sm:px-8 md:px-12 lg:px-16  border-gray-200">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start gap-8">
         {/* Company Info */}
         <div className="flex flex-col lg:w-1/3">
@@ -144,7 +144,8 @@ export default function Footer() {
       <div className="mt-16 inline-flex text-sm text-[#9CA3AF] justify-center">
         <Copyright />
         <p className="text-sm text-[#9CA3AF]">
-          2025 Agentia World. Powered by Panaversity. All rights reserved.
+          2025 Agentia World. Powered by Panaversity. All rights reserved.<br/>
+          Developer:Naila Adnan
         </p>
       </div>
     </footer>

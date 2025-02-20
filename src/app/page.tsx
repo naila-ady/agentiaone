@@ -18,7 +18,6 @@ export default function Home() {
   <Aisolutions/>
   <ChoosePlan/>
   <GetInTouch/>
-  
 </div>
   );
 }
