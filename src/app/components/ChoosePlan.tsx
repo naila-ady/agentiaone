@@ -5,7 +5,7 @@ const ChoosePlan = () => {
   return (
     <div className='bg-black'>
         <section className="text-[#ffffff] body-font overflow-hidden">
-  <div className="container px-5 mb-12 mx-auto">
+  <div className="container px-5 py-24 mx-auto">
     
     <div className="container px-5 py-24 mx-auto">
     <div className="lg:w-2/3 mx-auto flex flex-col text-center w-full mb-20">
