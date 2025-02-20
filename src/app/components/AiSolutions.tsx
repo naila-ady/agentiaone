@@ -5,8 +5,8 @@ const Aisolutions = () => {
   return (
     
   
-<section className="text-gray-600 body-font bg-black">
-  <div className="container px-5 py-24 mx-auto">
+<section className="text-gray-600 body-font bg-black" >
+  <div className="container px-5 mb-12 mx-auto">
     <div className="lg:w-2/3 mx-auto flex flex-col text-center w-full mb-20">
      <h1 className=" text-5xl font-bold font-sans mb-4 text-purple-600">
      AI Solutions
@@ -22,7 +22,7 @@ const Aisolutions = () => {
     </div>
 
     {/* card sections */}
-     <div className="flex flex-wrap -m-4 text-center">
+     <div className="flex flex-wrap -m-4 text-center ">
        {/* 1st box */}
     <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
   <div className="border-2 p-6 rounded-xl shadow-lg hover:shadow-xl shadow-transparent ease-in-out  h-72

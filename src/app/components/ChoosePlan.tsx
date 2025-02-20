@@ -5,7 +5,7 @@ const ChoosePlan = () => {
   return (
     <div className='bg-black'>
         <section className="text-[#ffffff] body-font overflow-hidden">
-  <div className="container px-5 py-24 mx-auto">
+  <div className="container px-5 mb-12 mx-auto">
     
     <div className="container px-5 py-24 mx-auto">
     <div className="lg:w-2/3 mx-auto flex flex-col text-center w-full mb-20">
@@ -18,8 +18,9 @@ const ChoosePlan = () => {
     </div>
     {/* box1 */}
     <div className="flex flex-wrap -m-4">
-      <div className="p-4 xl:w-1/3 md:w-1/2 w-full">
-        <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+      <div className="p-4 xl:w-1/3 md:w-1/2 w-full ">
+        <div className="h-full p-6 rounded-lg border-2 flex flex-col relative overflow-hidden border-purple-200
+         hover:border-purple-500 hover:opacity-90 transition-all duration-300 transform hover:scale-105 hover:shadow-[#9333ea]">
           <h2 className="text-3xl mb-1 font-bold text-[#ffffff]">
           Starter
           </h2>
@@ -73,7 +74,8 @@ transform hover:scale-105  transition-transform duration-300 ease-in-out hover:o
 
       {/* box2 */}
       <div className="p-4 xl:w-1/3 md:w-1/2 w-full  ">
-        <div className="h-full bg-gradient-to-r from-purple-900 to-blue-900 p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
+        <div className="h-full bg-gradient-to-r from-purple-900 to-blue-900 p-6 rounded-lg border-2
+         border-indigo-500 flex flex-col relative transform hover:scale-105 ease-in-out duration-300">
           
           <h2 className="text-3xl mb-1 font-bold text-[#ffffff]">
           Professional
@@ -134,14 +136,16 @@ transform hover:scale-105  transition-transform duration-300 ease-in-out hover:o
             </span>
             Advanced Security
           </p>
-          <button className="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">
+          <button className="flex text-xl items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full 
+          focus:outline-none hover:bg-indigo-600 rounded">
            Get Started
           </button>
                   </div>
       </div>
       {/* box3*/}
       <div className="p-4 xl:w-1/3 md:w-1/2 w-full">
-        <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+        <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden
+                 hover:border-purple-500 hover:opacity-90 transition-all duration-300 transform hover:scale-105 hover:shadow-[#9333ea]">
           
           <h2 className="text-3xl mb-1 font-bold text-[#ffffff]">
           Enterprise
@@ -218,7 +222,9 @@ transform hover:scale-105  transition-transform duration-300 ease-in-out hover:o
             </span>
             Custom Training
           </p>          
-          <button className="flex items-center mt-auto text-white border-1 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">
+          <button className="flex items-center mt-auto text-white text-xl bg-black\/50 border-2 py-2
+                   border-purple-500/30 px-4 w-full focus:outline-none
+transform hover:scale-105  transition-transform duration-300 ease-in-out hover:opacity-50 rounded">
         
            Get Started
           </button>

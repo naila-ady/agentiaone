@@ -23,8 +23,8 @@ const NueralCapabilities = () => {
     {/* card sections */}
      <div className="flex flex-wrap -m-4 text-center">
        {/* 1st box */}
-    <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-  <div className="border-2 p-6 rounded-xl shadow-lg hover:shadow-xl shadow-transparent ease-in-out  h-72
+    <div className="p-4 xl:w-1/4 sm:w-1/2 w-full">
+  <div className="border-2 p-6 rounded-xl shadow-lg hover:shadow-xl shadow-transparent ease-in-out 
     border-purple-500 hover:border-purple-500 hover:opacity-90 transition-all duration-300 transform
      hover:scale-105 ">
     <div className="flex items-start mb-4">
@@ -43,8 +43,8 @@ const NueralCapabilities = () => {
   </div>
 </div>
   {/* 2nd box */}
-<div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-  <div className="border-2 p-6 rounded-xl shadow-lg hover:shadow-xl shadow-transparent ease-in-out  h-72
+<div className="p-4 xl:w-1/4 sm:w-1/2 w-full">
+  <div className="border-2 p-6 rounded-xl shadow-lg hover:shadow-xl shadow-transparent ease-in-out 
     border-purple-500 hover:border-purple-500 hover:opacity-90 transition-all duration-300 transform
      hover:scale-105 ">
     <div className="flex items-start mb-4">
@@ -63,8 +63,8 @@ const NueralCapabilities = () => {
   </div>
 </div>
 {/* 3rd box */}
-<div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-  <div className="border-2 p-6 rounded-xl shadow-lg hover:shadow-xl shadow-transparent ease-in-out  h-72
+<div className="p-4 xl:w-1/4 sm:w-1/2 w-full">
+  <div className="border-2 p-6 rounded-xl shadow-lg hover:shadow-xl shadow-transparent ease-in-out 
     border-purple-500 hover:border-purple-500 hover:opacity-90 transition-all duration-300 transform
      hover:scale-105 ">
     <div className="flex items-start mb-4">
@@ -81,8 +81,8 @@ const NueralCapabilities = () => {
 </div>
 {/* 4th box */}
      
-      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-  <div className="border-2 p-6 rounded-xl shadow-lg hover:shadow-xl shadow-transparent ease-in-out  h-72
+      <div className="p-4 xl:w-1/4  sm:w-1/2 w-full">
+  <div className="border-2 p-6 rounded-xl shadow-lg hover:shadow-xl shadow-transparent ease-in-out 
     border-purple-500 hover:border-purple-500 hover:opacity-90 transition-all duration-300 transform
      hover:scale-105 ">
     <div className="flex items-start mb-4">
