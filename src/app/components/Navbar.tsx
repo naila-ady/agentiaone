@@ -70,16 +70,16 @@ const Header = () => {
                             <Link href={"/"} className="px-4 text-1xl text-purple-500 hover:text-[#D1D5Db]">
                                 Features
                             </Link>
-                            <Link href={"./techonology"} className="px-4 1xl text-purple-500 text-1xl hover:text-[#D1D5Db]">
+                            <Link href={"../technology"} className="px-4 1xl text-purple-500 text-1xl hover:text-[#D1D5Db]">
                                 Techonolgy
                             </Link>
                             <Link href={"../agents"} className="px-4 1xl text-purple-500 text-1xl hover:text-[#D1D5Db]">
                                 Agents
                             </Link>
-                            <Link href={"../pricing"} className="px-4 1xl text-purple-500 text-1xl hover:text-[#D1D5Db]">
+                            <Link href={"../price"} className="px-4 1xl text-purple-500 text-1xl hover:text-[#D1D5Db]">
                                 Pricing
                             </Link>
-                            <Link href={"./contact"} className="px-4 1xl text-purple-500 text-1xl hover:text-[#D1D5Db]">
+                            <Link href={"../contact"} className="px-4 1xl text-purple-500 text-1xl hover:text-[#D1D5Db]">
                                 Contact
                             </Link>
                             <Button className='max-w-full h-12  bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-2 
