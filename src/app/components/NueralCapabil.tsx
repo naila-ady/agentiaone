@@ -5,7 +5,7 @@ const NueralCapabilities = () => {
   return (
     
   
-<section className="text-gray-600 body-font bg-black">
+<section className="text-gray-600 body-font bg-black" id="Features">
   <div className="container px-5 py-24 mx-auto">
     <div className="lg:w-2/3 mx-auto flex flex-col text-center w-full mb-20">
      <h1 className=" text-5xl font-bold font-sans mb-4 text-purple-600">

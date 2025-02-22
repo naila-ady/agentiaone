@@ -3,8 +3,8 @@ import { CircleCheck  } from 'lucide-react'
 
 const ChoosePlan = () => {
   return (
-    <div className='bg-black'>
-        <section className="text-[#ffffff] body-font overflow-hidden">
+    <div className='bg-black' id="ChoosePlan">
+        <section className="text-[#ffffff] body-font overflow-hidden ">
   <div className="container px-5 py-24 mx-auto">
     
     <div className="container px-5 py-24 mx-auto">

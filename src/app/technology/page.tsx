@@ -5,6 +5,7 @@ const Technologypage = () => {
   return (
     
         <AdvancedAi/>
+        
     
   )
 }

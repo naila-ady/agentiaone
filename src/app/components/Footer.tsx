@@ -29,7 +29,7 @@ export default function Footer() {
           {/* Social Media Links */}
           <div className="flex mt-4 gap-5">
             <div className="text-3xl">
-              <Link href={"#"} className="ml-3 text-[#e5e7eb]">
+              <Link href={"https://github.com/panaversity"} className="ml-3 text-[#e5e7eb]">
                 <Github />
               </Link>
             </div>

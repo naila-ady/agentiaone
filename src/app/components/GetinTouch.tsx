@@ -7,7 +7,7 @@ import Link from 'next/link'
 const GetInTouch = () => {
   return (
     
-      <section className="text-[#ffffff] body-font overflow-hidden  bg-black ">
+      <section className="text-[#ffffff] body-font overflow-hidden  bg-black" id="Contact">
         <div className="container px-5 py-24 mx-auto ">
           <div className="lg:w-2/3 mx-auto flex flex-col text-center w-full">
             <h1 className="text-5xl font-bold font-sans mb-4 text-purple-600">
