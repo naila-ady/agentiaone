@@ -100,11 +100,12 @@ const GetInTouch = () => {
                   className="w-full rounded bg-[#FFFFFF0D] border border-gray-900 text-base outline-none text-[#ffffff] py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
-
-              <button className="text-white  h-[48px] bg-indigo-500 border-0 py-2 
+             <Link href={"#Features"}>
+              <button className="text-white w-[415px]  h-[48px] bg-indigo-500 border-0 py-2 
               focus:outline-none hover:bg-indigo-600 rounded text-xl">
                 Send Message
               </button>
+              </Link>
             </div>
           </div>
         </div>
