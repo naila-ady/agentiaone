@@ -51,26 +51,26 @@ export default function Footer() {
           <h3 className="text-lg font-medium mb-4 text-[#FFFFFF]">Product</h3>
           <nav className="flex flex-col gap-4">
             <Link
-              href="/home"
-              className="text-sm text-[#9CA3AF] hover:text-gray-900"
+              href="/"
+              className="text-sm text-[#9CA3AF] hover:text-purple-300"
             >
               Features
             </Link>
             <Link
-              href="/shop"
-              className="text-sm text-[#9CA3AF] hover:text-gray-900"
+              href="#ChoosePlan"
+              className="text-sm text-[#9CA3AF] hover:text-purple-300"
             >
               Price
             </Link>
             <Link
-              href="/about"
-              className="text-sm text-[#9CA3AF] hover:text-gray-900"
+              href="#Features"
+              className="text-sm text-[#9CA3AF] hover:text-purple-300"
             >
               Documentation
             </Link>
             <Link
-              href="/contact"
-              className="text-sm text-[#9CA3AF] hover:text-gray-900"
+              href="#AdvancedAi"
+              className="text-sm text-[#9CA3AF] hover:text-purple-300"
             >
               Api
             </Link>
@@ -82,26 +82,26 @@ export default function Footer() {
           <h3 className="text-lg font-medium mb-4 text-[#FFFFFF]">Company</h3>
           <nav className="flex flex-col gap-4">
             <Link
-              href="/payment-options"
-              className="text-sm text-[#9CA3AF] hover:text-gray-900"
+              href="#Features"
+              className="text-sm text-[#9CA3AF] hover:text-purple-300"
             >
               About
             </Link>
             <Link
-              href="/returns"
-              className="text-sm text-[#9CA3AF] hover:text-gray-900"
+              href="#AdvancedAi"
+              className="text-sm text-[#9CA3AF] hover:text-purple-300"
             >
               Blog
             </Link>
             <Link
-              href="/privacy-policies"
-              className="text-sm text-[#9CA3AF] hover:text-gray-900"
+              href="#Aisolutions"
+              className="text-sm text-[#9CA3AF] hover:text-purple-300"
             >
               Career
             </Link>
             <Link
-              href="/privacy-policies"
-              className="text-sm text-[#9CA3AF] hover:text-gray-900"
+              href="#Contact"
+              className="text-sm text-[#9CA3AF] hover:text-purple-300"
             >
               Contact
             </Link>
@@ -113,26 +113,26 @@ export default function Footer() {
           <h3 className="text-lg font-medium mb-4 text-[#FFFFFF]">Legal</h3>
           <nav className="flex flex-col gap-4">
             <Link
-              href="/payment-options"
-              className="text-sm text-[#9CA3AF] hover:text-gray-900"
+              href="#Features"
+              className="text-sm text-[#9CA3AF] hover:text-purple-300"
             >
               Privacy
             </Link>
             <Link
-              href="/returns"
-              className="text-sm text-[#9CA3AF] hover:text-gray-900"
+              href="#ChoosePlan"
+              className="text-sm text-[#9CA3AF] hover:text-purple-300"
             >
               Terms
             </Link>
             <Link
-              href="/privacy-policies"
-              className="text-sm text-[#9CA3AF] hover:text-gray-900"
+              href="#Aisolutions"
+              className="text-sm text-[#9CA3AF] hover:text-purple-300"
             >
               Security
             </Link>
             <Link
-              href="/privacy-policies"
-              className="text-sm text-[#9CA3AF] hover:text-gray-900"
+              href="/Contact"
+              className="text-sm text-[#9CA3AF] hover:text-purple-300"
             >
               Compliance
             </Link>
