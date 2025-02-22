@@ -131,7 +131,7 @@ export default function Footer() {
               Security
             </Link>
             <Link
-              href="/Contact"
+              href="#Contact"
               className="text-sm text-[#9CA3AF] hover:text-purple-300"
             >
               Compliance
